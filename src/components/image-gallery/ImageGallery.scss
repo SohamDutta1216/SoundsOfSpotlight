@@ -23,6 +23,16 @@
     }
 }
 
+
+
+.tiktok-video-player {
+
+    iframe {
+        width: fit-content;
+        height: 100vh;
+    }
+}
+
 .video-responsive iframe {
     left: 0;
     top: 0;
@@ -58,6 +68,8 @@
         color: var.$black;
 
     }
+
+
 
     &__text {
         font-size: 10px;
